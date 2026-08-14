@@ -1,0 +1,2 @@
+add_executable(rippercasted_demo demo.cpp)
+target_link_libraries(rippercasted_demo PRIVATE rippercasted::rippercasted)
